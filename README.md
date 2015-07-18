@@ -1,12 +1,45 @@
-# adavanced-topics
+<a name="README">[<img src="https://pbs.twimg.com/profile_images/2149314222/square.png" width="200px" height="200px" />](https://github.com/MartinChavez/Learn-Javascript)</a>
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.12.1.
+AngularJS : Adavanced Topics
+================
 
-## Build & development
+A project aimed to help the user master AngularJS advanced concepts. Each unit contains a tutorial with concepts, examples and best practices.
 
-Run `grunt` for building and `grunt serve` for preview.
+Topics
+================
+- Routing
+ 
+Tools
+====================
+<a name="README">[<img src="http://www.jetbus.io/images/logo-node.png" width="50px" height="50px" />](https://nodejs.org/)</a>
+<a name="README">[<img src="https://pbs.twimg.com/profile_images/3786155988/46ea2dd8b1bdd31a8ba61044cb5b6ebe_400x400.png" width="50px" height="50px" />](http://yeoman.io/)</a>
+<a name="README">[<img src="https://camo.githubusercontent.com/39242419c60a53e1f3cecdeecb2460acce47366f/687474703a2f2f6772756e746a732e636f6d2f696d672f6772756e742d6c6f676f2d6e6f2d776f72646d61726b2e737667" width="50px" height="50px" />](https://github.com/gruntjs/grunt)</a>
+<a name="README">[<img src="https://camo.githubusercontent.com/aad5f0385a2d8524cb366a1bad62bc74e797743a/687474703a2f2f692e696d6775722e636f6d2f516d47485067632e706e67" width="50px" height="50px" />](http://bower.io/)</a>
+<a name="README">[<img src="https://www.npmjs.com/static/images/npm-logo.svg" width="50px" height="50px" />](https://www.npmjs.com/)</a>
+ 
+Install
+====================
+```Terminal
+npm install
+bower install
+```
 
-## Testing
+Run and Play
+====================
+```Terminal
+grunt serve
+```
 
-Running `grunt test` will run the unit tests with karma.
+
+Questions ?
+====================
+If you have any questions, please feel free to ask me:
+[Martin Chavez Aguilar](mailto:martin.chavez@live.com)
+
+Contributors
+====================
+* [Martin Chavez Aguilar](https://www.linkedin.com/in/martinchavezaguilar) - Wrote the project
+
+References
+====================
+* [Code School](https://www.codeschool.com/)
