@@ -1,35 +1,17 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name adavancedTopicsApp
- * @description
- * # adavancedTopicsApp
- *
- * Main module of the application.
- */
 angular
-  .module('adavancedTopicsApp', [
+  .module('advancedTopicsApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
+    //Once you included ngRoute in the index.html (as a script reference),
+    //the whole application has access to this service.
+    //You can then use ngRoute as a dependency
     'ngRoute',
     'ngSanitize',
     'ngTouch'
-  ])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
-      })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
-  });
+  ]);
+
+
+

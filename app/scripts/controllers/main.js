@@ -7,7 +7,7 @@
  * # MainCtrl
  * Controller of the adavancedTopicsApp
  */
-angular.module('adavancedTopicsApp')
+angular.module('advancedTopicsApp')
   .controller('MainCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',

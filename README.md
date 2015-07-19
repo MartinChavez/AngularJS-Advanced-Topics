@@ -1,6 +1,6 @@
 <a name="README">[<img src="https://pbs.twimg.com/profile_images/2149314222/square.png" width="200px" height="200px" />](https://github.com/MartinChavez/Learn-Javascript)</a>
 
-AngularJS : Adavanced Topics
+AngularJS : Advanced Topics
 ================
 
 A project aimed to help the user master AngularJS advanced concepts. Each unit contains a tutorial with concepts, examples and best practices.

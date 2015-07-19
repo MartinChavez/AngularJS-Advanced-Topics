@@ -1,23 +1,48 @@
 <div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
+  <h1>Organization of files</h1>
+
   <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
+    It is a good practice to separate controllers, services, filters and directives into individual directories.
   </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#/">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
 </div>
 
 <div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
+  <h4>Controllers</h4>
+  <ul>
+    <li>You should create a different file for each controller in the controllers folder</li>
+  </ul>
 
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
+  <h4>Views</h4>
+  <ul>
+    <li>Unique HTML should get its own template file and place them into the templates folder.</li>
+    <li>You should avoid duplication and remove redundant filename (such as 'users-index.html') and use folder hierarchy
+      instead (users => index.html)
+    </li>
+  </ul>
 
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
+  <h4>Index file</h4>
+  <ul>
+    <li>The first file that will be loaded by the Angular App</li>
+  </ul>
+  <h4>Routes</h4>
+  <ul>
+    <li>Angular routes allow us to map URLs to use templates so that every time the current route changes the included
+      view changes with it
+    </li>
+    <li>Route steps</li>
+    <ul>
+      <li>
+        Use ngView
+      </li>
+      <li>
+        Load hte ngRoute library
+      </li>
+      <li>
+        Import ngRoute module
+      </li>
+      <li>
+        Define routes
+      </li>
+    </ul>
+  </ul>
 </div>
