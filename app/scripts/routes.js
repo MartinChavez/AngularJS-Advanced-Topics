@@ -31,5 +31,4 @@ angular.module('advancedTopicsApp').config(function ($routeProvider) {
       .otherwise({
         redirectTo: '/'
       });
-
 });
