@@ -3,7 +3,7 @@
 //the included view changes with it
 
 /* $routeProvider*/
-//$routeProvider allows you to specify Routes
+//$routeProvider allows you to specify Routes in the Angular application
 
 //It is a good practice to re-declare your application module in every new file
 angular.module('advancedTopicsApp').config(function ($routeProvider) {
