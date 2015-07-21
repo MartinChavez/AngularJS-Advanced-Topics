@@ -19,9 +19,12 @@ angular.module('advancedTopicsApp').config(function ($routeProvider) {
   //You only need to define $routeProvider once and use method chaining
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
+        /* Routing Components*/
+        //It is possible to associate routes with templates and controllers
+        templateUrl: 'views/organization.html',
+        //It is a good practice to link to an already existing controller
+        controller: 'OrganizationCtrl',
+        controllerAs: 'organization'
       })
       .when('/about', {
         templateUrl: 'views/about.html',

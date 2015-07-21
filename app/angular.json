@@ -1,0 +1,3 @@
+{
+  "modules": ["ngAnimate", "ngCookies", "ngResource"]
+}
