@@ -24,12 +24,15 @@ angular.module('advancedTopicsApp').config(function ($routeProvider) {
         templateUrl: 'views/organization.html',
         //It is a good practice to link to an already existing controller
         controller: 'OrganizationCtrl',
+        //You can use 'controllerAs' to assign an alias to this controller
         controllerAs: 'organization'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
+      //Declaring routes based on Id's
+      //By passing in $routeParams we can obtain identifiers and utilize them
+      .when('/module/:id', {
+        templateUrl: 'views/module.html',
+        controller: 'ModuleCtrl',
+        controllerAs: 'module'
       })
       .otherwise({
         redirectTo: '/'

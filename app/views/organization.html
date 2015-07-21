@@ -45,4 +45,10 @@
       </li>
     </ul>
   </ul>
+  <h4>$http service</h4>
+  <ul>
+    <!-- You can use the alias of the controller -->
+{{organization.modules}}
+    <li ng-repeat="module in organization.modules"><a ng-href="#/module/{{module.id}}">{{module.name}}</a></li>
+  </ul>
 </div>

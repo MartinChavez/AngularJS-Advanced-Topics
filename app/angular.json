@@ -1,3 +1,7 @@
 {
-  "modules": ["ngAnimate", "ngCookies", "ngResource"]
+  "modules": [
+    {"id": "1" , "name": "ngAnimate"},
+    {"id": "2" , "name": "ngCookies"},
+    {"id": "3" , "name": "ngResource"}
+    ]
 }
