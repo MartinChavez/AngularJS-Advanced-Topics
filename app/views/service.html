@@ -2,15 +2,33 @@
   <h1>Services</h1>
 
   <p class="lead">
-    dfgdfg
+    Services should hold functions responsible for connecting and fetching data, then sharing it across our application
   </p>
 </div>
 
+
 <div class="row marketing">
-  <h4>gdgdffgdgdf</h4>
+  <h4>Service Recipes</h4>
   <ul>
-    <li>dfggdfdfg</li>
+    <li>Factory: Used for sharing functions and objects across an application</li>
+    <li>Provider: Used for sharing functions and objects an application, but allows for configuration</li>
+  </ul>
+  <h4>Factory service</h4>
+  <ul>
+    <!-- You can use the alias of the controller -->
+    <li ng-repeat="module in service.modules">
+      {{module}}
+      <module title="module.name" id="module.id"></module>
+    </li>
   </ul>
 
+  <input type="text" ng-model="user.email"/>
+  <img ng-src="{{gravatarUrl}}" ng-if="gravatarUrl"/>
+  {{user.email}}
+
+
+  <input type="text" ng-model="user.email"/>
+  <img ng-src="{{gravatarUrl2}}" ng-if="gravatarUrl2"/>
+  {{user.email}}
 
 </div>

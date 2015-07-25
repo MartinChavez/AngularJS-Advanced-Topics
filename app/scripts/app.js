@@ -11,7 +11,10 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch'
-  ]);
+  ]).config(function (Gravatar2Provider){
+
+    Gravatar2Provider.setSize(150);
+  });
 
 
 
