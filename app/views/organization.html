@@ -48,6 +48,10 @@
   <h4>$http service</h4>
   <ul>
     <!-- You can use the alias of the controller -->
-    <li ng-repeat="module in organization.modules"><a ng-href="#/module/{{module.id}}">{{module.name}}</a></li>
+    <li ng-repeat="module in organization.modules">
+      {{module}}
+      <!-You can set the module instance title to a variable and pass it to the template->
+      <module title="module.name" id="module.id"></module>
+    </li>
   </ul>
 </div>

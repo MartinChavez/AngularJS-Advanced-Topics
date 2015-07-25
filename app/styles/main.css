@@ -81,3 +81,11 @@ body {
     border-bottom: 0;
   }
 }
+
+.module{
+  position: relative;
+}
+
+module p.hidden{
+  display: none;
+}
