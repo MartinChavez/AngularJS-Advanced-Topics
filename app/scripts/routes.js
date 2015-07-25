@@ -27,6 +27,11 @@ angular.module('advancedTopicsApp').config(function ($routeProvider) {
         //You can use 'controllerAs' to assign an alias to this controller
         controllerAs: 'organization'
       })
+      .when('/service', {
+        templateUrl: 'views/service.html',
+        controller: 'ServiceCtrl',
+        controllerAs: 'service'
+      })
       //Declaring routes based on Id's
       //By passing in $routeParams we can obtain identifiers and utilize them
       .when('/module/:id', {
