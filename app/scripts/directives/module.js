@@ -3,7 +3,7 @@
 angular.module("advancedTopicsApp")
   .directive("module", function (){
 
-    var num = 1;
+    //var num = 1;
 
     /* $scope */
   return {
