@@ -1,12 +1,13 @@
 angular.module("advancedTopicsApp")
-  .directive("directiveExample", function () {
+  .directive("directiveExample", function (Module) {
 
-
-    console.log('directiveExample');
     return {
       replace: true,
       restrict: "E",
-      templateUrl: "views/directive-example.html"
+      templateUrl: "views/directive-example.html",
+      link: function(scope, element, attrs){
+        scope.modules = Module.query();
+      }
 
     };
 
