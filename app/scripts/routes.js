@@ -32,6 +32,11 @@ angular.module('advancedTopicsApp').config(function ($routeProvider) {
         controller: 'ServiceCtrl',
         controllerAs: 'service'
       })
+      .when('/directives', {
+        templateUrl: 'views/directives.html',
+        controller: 'DirectivesCtrl',
+        controllerAs: 'directives'
+      })
       //Declaring routes based on Id's
       //By passing in $routeParams we can obtain identifiers and utilize them
       .when('/module/:id', {
