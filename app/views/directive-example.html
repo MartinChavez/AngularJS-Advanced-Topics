@@ -1,3 +1,7 @@
 <div class="directiveExample">
-  <p>Directive example</p>
+  <p>Outer Directive</p>
+  {{innerDirectives}}
+  <inner-directive ng-repeat="innerDirective2 in innerDirectives | filter:{innerDirective:{name:'activeModule'}}" innerDirective="innerDirective2">
+
+  </inner-directive>
 </div>

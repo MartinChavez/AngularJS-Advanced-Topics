@@ -6,7 +6,18 @@ angular.module("advancedTopicsApp")
       restrict: "E",
       templateUrl: "views/directive-example.html",
       link: function(scope, element, attrs){
-        scope.modules = Module.query();
+        console.log(Module.query());
+        scope.innerDirectives = Module.query();
+      },
+      controller: function($scope){
+        this.setActive = function(innerDirective){
+          $scope.active = innerDirective.active;
+        }
+
+        this.getActive = function(){
+          return $scope.active;
+        }
+
       }
 
     };
