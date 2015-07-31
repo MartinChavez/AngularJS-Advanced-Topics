@@ -17,9 +17,6 @@ angular.module("advancedTopicsApp")
         this.getActive = function(){
           return $scope.active;
         }
-
       }
-
     };
-
   });

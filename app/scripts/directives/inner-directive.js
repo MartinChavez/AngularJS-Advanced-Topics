@@ -24,9 +24,6 @@ angular.module("advancedTopicsApp")
           return DirectivesCtrl.getActive() === scope.innerDirective.name;
 
         }
-
       }
-
     };
-
   });
