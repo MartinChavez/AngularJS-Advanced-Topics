@@ -17,7 +17,7 @@ Tools
 <a name="README">[<img src="https://camo.githubusercontent.com/aad5f0385a2d8524cb366a1bad62bc74e797743a/687474703a2f2f692e696d6775722e636f6d2f516d47485067632e706e67" width="50px" height="50px" />](http://bower.io/)</a>
 <a name="README">[<img src="https://www.npmjs.com/static/images/npm-logo.svg" width="50px" height="50px" />](https://www.npmjs.com/)</a>
  
-Routes 
+Routes and $routeProvider
 ====================
 ```Javascript
 /* Routes*/
@@ -41,14 +41,30 @@ angular.module('advancedTopicsApp').config(function ($routeProvider) {
   //You only need to define $routeProvider once and use method chaining
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl',
-        controllerAs: 'main'
+        /* Routing Components*/
+        //It is possible to associate routes with templates and controllers
+        templateUrl: 'views/organization.html',
+        //It is a good practice to link to an already existing controller
+        controller: 'OrganizationCtrl',
+        //You can use 'controllerAs' to assign an alias to this controller
+        controllerAs: 'organization'
       })
-      .when('/about', {
-        templateUrl: 'views/about.html',
-        controller: 'AboutCtrl',
-        controllerAs: 'about'
+      .when('/service', {
+        templateUrl: 'views/service.html',
+        controller: 'ServiceCtrl',
+        controllerAs: 'service'
+      })
+      .when('/directives', {
+        templateUrl: 'views/directives.html',
+        controller: 'DirectivesCtrl',
+        controllerAs: 'directives'
+      })
+      //Declaring routes based on Id's
+      //By passing in $routeParams we can obtain identifiers and utilize them
+      .when('/module/:id', {
+        templateUrl: 'views/module.html',
+        controller: 'ModuleCtrl',
+        controllerAs: 'module'
       })
       .otherwise({
         redirectTo: '/'
