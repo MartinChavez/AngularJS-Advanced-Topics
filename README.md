@@ -229,7 +229,7 @@ Run and Play
 ```Terminal
 grunt serve
 ```
-<img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/Advancecd.png" />
+<img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/Advancecd.png" />
 
 Questions ?
 ====================
