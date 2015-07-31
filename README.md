@@ -12,7 +12,9 @@ Topics
 - Directives (Require and Link attributes)
 - Services (Factory Pattern and $resource)
 - Provider Service Pattern 
- 
+
+* For basic topics see: <a name="AngularJS : Basics">[AngularJS : Basics](https://github.com/MartinChavez/AngularJs-Basicss)</a> 
+
 Tools
 ====================
 <a name="README">[<img src="http://www.jetbus.io/images/logo-node.png" width="50px" height="50px" />](https://nodejs.org/)</a>
