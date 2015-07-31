@@ -7,7 +7,12 @@ A project aimed to help the user master AngularJS advanced topics. Each unit con
 
 Topics
 ================
-- Routing
+- Routing and ($routeProvider and $routeParams)
+- Directives ($scope and Scope)
+- Directives (Require and Link attributes)
+- Services (Factory Pattern and $resource)
+- Provider Service Pattern 
+- Filters
  
 Tools
 ====================
@@ -120,7 +125,7 @@ angular.module("advancedTopicsApp")
   });
 ```
 
-Directives (Require attribute)
+Directives (Require and Link attributes)
 ====================
 ```Javascript
 angular.module("advancedTopicsApp")
