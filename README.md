@@ -55,6 +55,18 @@ angular.module('advancedTopicsApp').config(function ($routeProvider) {
       });
 });
 ```
+Best Practices 
+====================
+```Javascript
+angular.module('advancedTopicsApp')
+  .controller('OrganizationCtrl', function ($http) {
+
+    //It is a good practice to assign 'this' to a variable in order to use 'this' keyword inside the callback
+    var controller = this;
+    $http({method:'GET', url: 'angular.json'}).success(function(data){
+      controller.modules = data.modules;
+    });
+```
 
 Install
 ====================
