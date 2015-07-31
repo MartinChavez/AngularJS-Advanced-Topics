@@ -27,7 +27,6 @@ angular.module("advancedTopicsApp")
 
       }
 
-
     };
 
   });
