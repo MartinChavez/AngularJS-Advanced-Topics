@@ -137,7 +137,7 @@ angular.module("advancedTopicsApp")
     };
   });
 ```
-Servivices (Factory Pattern and $resource)
+Services (Factory Pattern and $resource)
 ====================
 ```Javascript
 /* Services*/
