@@ -12,7 +12,6 @@ Topics
 - Directives (Require and Link attributes)
 - Services (Factory Pattern and $resource)
 - Provider Service Pattern 
-- Filters
  
 Tools
 ====================
