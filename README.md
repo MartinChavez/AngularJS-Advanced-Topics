@@ -13,7 +13,7 @@ Topics
 - Services (Factory Pattern and $resource)
 - Provider Service Pattern 
 
-*For basic topics see: <a name="AngularJS : Basics">[AngularJS : Basics](https://github.com/MartinChavez/AngularJs-Basicss)</a> 
+*For basic topics see: <a name="AngularJS : Basics">[AngularJS : Basics](https://github.com/MartinChavez/AngularJs-Basics)</a> 
 
 Tools
 ====================
