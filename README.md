@@ -3,7 +3,7 @@
 AngularJS : Advanced Topics
 ================
 
-A project aimed to help the user master AngularJS advanced models. Each unit contains a tutorial with concepts, examples and best practices.
+A project aimed to help the user master AngularJS advanced topics. Each unit contains a tutorial with concepts, examples and best practices.
 
 Topics
 ================
