@@ -1,4 +1,4 @@
-<a name="README">[<img src="https://pbs.twimg.com/profile_images/2149314222/square.png" width="200px" height="200px" />](https://github.com/MartinChavez/Learn-Javascript)</a>
+<a name="README">[<img src="https://s3-us-west-2.amazonaws.com/testdrivenlearningbucket/angularadvanced.png" width="200px" height="200px" />](https://github.com/MartinChavez/Learn-Javascript)</a>
 
 AngularJS : Advanced Topics
 ================
